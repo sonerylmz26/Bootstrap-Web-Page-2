@@ -1,0 +1,98 @@
+
+
+body{
+      transition: all 0.4s ease-in;
+}
+
+.logo{
+
+      & img{
+          width: 20%;   
+      }
+     
+}
+.nav-link {
+      font-size: 1.3rem;
+      font-weight: 500;
+      color:#fff;
+
+      &:hover{
+            color: #d37474;
+transition: color 0.4s ease-in-out;      
+      }
+}
+
+.active{
+      color: #d37474;
+}
+.banner{
+  height: 86.4vh;
+      background-image: url(../img/final-fantasy-type-0-hd-laptop-desktop-wallpaper-wallpaper-png-favpng-C9e4KSYQfNeuSG15TUQZC4rqp.jpg);
+      background-position: 50% 50% ;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+
+}
+
+
+.ser__content{
+padding: 20px;
+
+}
+
+
+.span{
+      width: 150px !important;
+      height: 150px !important;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+}
+
+.card-img-top{
+      height: 277.5px;
+}
+
+.team{
+      
+      & img{
+            border: 5px solid #d37474;
+      }
+}
+.social{
+      padding: 8px;
+      margin-left: 10px;
+      background-color: #333;
+      color: #fff;
+
+      & i{
+            font-size: 20px;
+             &:hover{
+           color: #d37474;
+           transition: all 0.4s ease-in;
+      }
+} 
+      }
+
+      .client__img{
+            & img{
+               background-color: #d37474;   
+               border-radius: 100px;
+            }
+           
+      }
+    
+      .Contact{
+            background-image: url(../img/3.png);
+            background-position: 50% 50% ;
+            background-repeat: no-repeat;
+            background-size: cover;
+      }
+
+.footer{
+background-color: #6e7f99;
+height: 175px;
+      }
